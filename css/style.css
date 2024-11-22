@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: #1e1e1e;
+}
+
+/* ========== Header ========== */
+header {
+  display: flex;
+  padding: 15px 4%;
+  margin-inline: 9%;
+  align-items: center;
+  background-color: red;
+}
+
+nav {
+  margin-inline: auto;
+}
+
+nav a {
+  font-weight: 300;
+  padding-inline: 20px;
+  font-size: 14px;
+}
+
+header img {
+  width: 100%;
+}
+
+/* ========== Home Page ========== */
+/* ========== Section 1 ========== */
+.section-1 {
+  max-width: 1440px;
+  padding-block: 20px;
+  text-align: center;
+  margin-inline: auto;
+  background: linear-gradient(to bottom, #010c63, #102a61),
+    url("/assets/hero-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-1 h1 {
+  font-size: 64px;
+  font-family: "Anton", sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.section-1-btns a {
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 10px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  margin: 0px 15px;
+}
+
+.section-1-btns-links {
+  /* margin-block: 500px; */
+}
