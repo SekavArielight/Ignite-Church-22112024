@@ -253,3 +253,69 @@ header img {
   font-size: 14px;
   color: #fff;
 }
+
+/* ========== Section 6 ========== */
+.section-6{
+  max-width: 1440px;
+  margin: 25px auto;
+  padding: 20px 9%;
+  text-align: center;
+}
+
+.section-6-vision-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 15px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: #b9b2b2d2;
+}
+
+.section-6 .ri-circle-fill {
+  color: #141414;
+  font-size: 8px;
+}
+
+.section-6 h2 {
+  font-size: 48px;
+  font-family: "Anton", sans-serif;
+  color: #000;
+  font-weight: 400;
+  margin-block: 20px;
+}
+
+.section-6 h2 span{
+  font-size: 48px;
+  font-family: "Anton", sans-serif;
+  color: #010C63;
+  font-weight: 400;
+}
+
+.section-6-grid{
+  display: grid;
+  max-width: 1400px;
+  width: fit-content;
+  margin: 25px auto;
+  /* padding: 20px 25px;
+  grid-auto-columns: 270px;
+  grid-auto-rows: 220px; */
+  grid-template-columns: repeat(3,350px);
+  gap: 20px;
+  text-align: left;
+}
+
+.section-6-grid img{
+  width: 100%;
+}
+
+.section-6-grid p{
+  font-size: 16px;
+  font-family: "Anton", sans-serif;
+}
+
+.section-6-grid h3{
+  font-size: 36px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
