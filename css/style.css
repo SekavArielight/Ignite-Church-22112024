@@ -14,7 +14,6 @@ header {
   padding: 15px 4%;
   margin-inline: 9%;
   align-items: center;
-  background-color: red;
 }
 
 nav {
@@ -34,15 +33,30 @@ header img {
 /* ========== Home Page ========== */
 /* ========== Section 1 ========== */
 .section-1 {
-  max-width: 1440px;
-  padding-block: 20px;
+  /* max-width: 1440px; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  padding-block: 60px;
   text-align: center;
   margin-inline: auto;
-  background: linear-gradient(to bottom, #010c63, #102a61),
-    url("/assets/hero-img.png");
+  background: rgba(7, 5, 104, 0.836);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: -1;
+  height: auto;
 }
 
 .section-1 h1 {
@@ -50,17 +64,192 @@ header img {
   font-family: "Anton", sans-serif;
   color: #fff;
   font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+.section-1-vision-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 15px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: #b9b2b23f;
+}
+
+.section-1 h6 {
+  display: inline;
+  font-size: 10px;
+  font-family: "Anton", sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.ri-circle-fill {
+  color: #fff;
+  font-size: 8px;
 }
 
 .section-1-btns a {
   color: #fff;
   padding: 5px 15px;
   font-size: 10px;
+  font-weight: 100;
   border: 1px solid #fff;
   border-radius: 30px;
   margin: 0px 15px;
+  font-size: 14px;
 }
 
-.section-1-btns-links {
-  /* margin-block: 500px; */
+/* ========== Section 2 ========== */
+.section-2{
+  max-width: 1440px;
+  padding: 60px 9%;
+  margin-inline: auto;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-2-div{
+  flex: 1;
+}
+
+.section-2 h2 {
+  font-size: 64px;
+  font-family: "Anton", sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.section-2 h3 {
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+  background-color: #1a1a1a;
+  display: inline;
+  padding: 2px 15px;
+}
+
+.section-2 h3 span{
+  font-weight: 500;
+  color: #fff;
+}
+
+.section-2 p{
+  font-size: 16px;
+  margin-block: 25px;
+}
+
+.section-2 p span{
+  color: #000;
+  font-weight: 700;
+}
+
+.section-2 a{
+  font-size: 14px;
+  background-color: #fe3838;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+.section-2 i{
+  color: #fff;
+}
+
+.section-2-image-div img{
+  width: fit-content;
+  height: auto;
+}
+
+/* ========== Section 3 ========== */
+.section-3{
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+.section-3 img{
+  width: 100%;
+}
+
+/* ========== Section 4 ========== */
+.section-4{
+  max-width: 1440px;
+  margin: 25px auto;
+  padding-inline: 9%;
+  text-align: center;
+}
+
+.section-4 h2{
+  font-size: 48px;
+  font-family: "Anton", sans-serif;
+  color: #000;
+  font-weight: 400;
+
+}
+
+.section-4 p{
+  font-size: 16px;
+  padding-block: 15px;
+}
+
+.section-4 a{
+  display: inline-block;
+  color: #fe3838;
+  border: 1px solid #fe3838;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 15px;
+  margin-top: 25px;
+  margin-inline: 5px;
+}
+
+/* ========== Section 5 ========== */
+.section-5{
+  max-width: 1440px;
+  margin: 25px auto;
+  padding: 80px 9%;
+  background-color: #0f0f0f;
+  display: flex;
+  width: 100%;
+  gap: 35px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-5 h2 {
+  font-size: 48px;
+  font-family: "Anton", sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.section-5 p{
+  font-size: 16px;
+  font-weight: 200;
+  color: #fff;
+  padding-block: 15px;
+}
+
+.section-5 p span{
+  font-weight: 600;
+  color: #fff;
+}
+
+.section-5 a{
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+
+.section-5 i{
+  font-size: 14px;
+  color: #fff;
 }
