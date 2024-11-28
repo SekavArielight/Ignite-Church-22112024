@@ -401,7 +401,7 @@ hr {
   border-radius: 15px;
 }
 
-.section-7-grid-box-a, .section-7-grid-box-b, .section-7-grid-box-c{
+.section-7-grid-box-a{
   background: url('/assets/Ignite\ Church\ flyer\ 1.jpg');
   background-position: center;
   background-size: cover;
@@ -410,6 +410,13 @@ hr {
 
 .section-7-grid-box-b{
   background: url('/assets/CROSS\ OVER.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-7-grid-box-c{
+  background: url('/assets/NEW\ YEAR\ SERVICE.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
