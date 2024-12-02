@@ -11,9 +11,15 @@
 /* ========== Header ========== */
 header {
   display: flex;
-  padding: 20px 4% 12px;
-  margin-inline: 9%;
+  padding: 20px 12.5% 12px;
+  background-color: #fff;
+  /* margin-inline: 9%; */
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
 }
 
 nav {
@@ -27,6 +33,12 @@ nav a {
   letter-spacing: 1.2px;
 }
 
+a:is(:link, :active, :visited).active {
+  background-color: #94919167;
+  border-radius: 30px;
+  color: #1e1e1e;
+}
+
 header img {
   width: 70px;
 }
@@ -35,6 +47,7 @@ header img {
 /* ========== Section 1 ========== */
 .section-1 {
   /* max-width: 1440px; */
+  margin-top: 75px;
   padding-block: 60px;
   text-align: center;
   margin-inline: auto;
