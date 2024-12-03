@@ -1,8 +1,99 @@
+/* ========== KEY BREAKPOINTS ========== */
+/* 
+  RCN UYO WEBSITE TEMPLATE
+     <= 479 Mobile View
+     480 - 767 Grid Collapse
+     768 - 959 Retain Desktop Site
+     960 - 1219
+     >= 1220
+     
+  */
+
 @media (max-width: 1440px) {
   /* ========== Home Page ========== */
   /* ========== Section 1 ========== */
   .section-1 {
     max-width: 1440px;
     /* min-height: 80vh; */
+  }
+}
+
+@media (max-width: 1259px) {
+  /* ========== Home Page ========== */
+  .section-6-grid {
+    grid-template-columns: 290px 290px auto;
+  }
+
+  .section-6-third-grid {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1215px) {
+  /* ========== Home Page ========== */
+  header {
+    padding: 20px 9% 12px;
+  }
+
+  .section-1 h1 {
+    font-size: 60px;
+  }
+
+  .section-2,
+  .section-4,
+  .section-5,
+  .section-6,
+  .section-7 {
+    padding: 20px 100px;
+  }
+
+  .section-7 h2 {
+    font-size: 36px;
+  }
+
+  .section-7 p {
+    font-size: 12px;
+  }
+
+  .section-8 {
+    padding: 40px 100px 80px;
+  }
+
+  footer {
+    padding: 20px 100px 180px;
+  }
+}
+
+@media (max-width: 1075px) {
+  /* ========== Home Page ========== */
+  .section-5{
+    gap: 50px;
+  }
+
+  .section-6-grid {
+    grid-template-columns: 260px 260px auto;
+  }
+}
+
+@media (max-width: 1015px) {
+  /* ========== Home Page ========== */
+  .section-7{
+    grid-template-columns: 150px 1fr 1fr 1fr;
+  }
+
+  .section-2,
+  .section-4,
+  .section-5,
+  .section-6,
+  .section-7 {
+    padding: 20px 80px;
+  }
+
+  .section-8 {
+    padding: 40px 80px 80px;
+  }
+
+  footer {
+    padding: 20px 80px 180px;
   }
 }
