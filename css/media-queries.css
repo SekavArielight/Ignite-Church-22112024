@@ -3,7 +3,7 @@
   RCN UYO WEBSITE TEMPLATE
      <= 479 Mobile View
      480 - 767 Grid Collapse
-     768 - 959 Retain Desktop Site
+     768 - 959 Tablet: Retain Desktop Site
      960 - 1219
      >= 1220
      
@@ -253,13 +253,36 @@
 
 @media (max-width: 852px) {
   /* ========== Home Page ========== */
+  header {
+    padding: 20px 7.5% 12px;
+  }
+
+  header img {
+    width: 60px;
+  }
+
+  .section-2 a,
+  .section-4 a,
+  .section-5 a,
+  .section-7 a,
+  .footer-card a {
+    padding: 10px 16px;
+  }
   .section-6-grid h3 {
     font-size: 18px;
   }
 
-  /* .section-7 {
+  .section-6-grid {
+    grid-template-columns: 220px 220px auto;
+  }
+
+  .section-6 p {
+    font-size: 12px;
+  }
+
+  .section-7 {
     grid-template-columns: 120px 1fr 1fr 1fr;
-  } */
+  }
 
   .section-7 h2 {
     font-size: 25px;
@@ -268,4 +291,19 @@
   .section-7 p {
     font-size: 10px;
   }
+
+  .footer-credit h3 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 791px) {
+  /* ========== Home Page ========== */
+  .section-6-grid h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 771px) {
+  /* ========== Home Page ========== */
 }
