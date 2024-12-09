@@ -312,6 +312,10 @@
   /* ========== Home Page ========== */
 }
 
+@media (max-width: 350px) {
+  /* ========== Home Page ========== */
+}
+
 @media (max-width: 320px) {
   /* ========== Home Page ========== */
 }
